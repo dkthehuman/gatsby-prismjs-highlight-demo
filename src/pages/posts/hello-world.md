@@ -3,6 +3,16 @@ title: "Hello world"
 date: "2019-08-23"
 ---
 
-Hello world!
+````
+```javascript
+// a wild comment
+console.log('hello world'); // highlight-line
+```
+````
 
-![](./circle.png)
+renders to
+
+```javascript
+// a wild comment
+console.log('hello world'); // highlight-line
+```
